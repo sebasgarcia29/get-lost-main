@@ -1,0 +1,51 @@
+/* src/styles/globals.css */
+.app-container {
+  min-height: 100vh; /* Asegura que la altura mínima sea igual a la ventana del navegador */
+  display: flex;
+  flex-direction: column; /* Organiza los elementos en una columna */
+}
+
+main {
+  flex-grow: 1; /* Hace que el contenido principal ocupe el espacio restante */
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos a los extremos */
+  align-items: center; /* Centra verticalmente los elementos */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Hace que los elementos de la lista estén en fila */
+}
+
+nav ul li {
+  margin-right: 20px; /* Espacio entre los elementos de la lista */
+}
+
+nav a {
+  color: white;
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  font-size: 18px;
+}
+
+h1 {
+  margin: 0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+}
